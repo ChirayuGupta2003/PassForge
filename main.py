@@ -5,7 +5,7 @@ import pyperclip
 
 
 @click.command()
-@click.option("--length", default=12, help="Length of password (max=50).")
+@click.option("--length", default=16, help="Length of password (max=50).")
 @click.option("--u", default=True, help="Include uppercase or not.")
 @click.option("--l", default=True, help="Include lowercase or not.")
 @click.option("--n", default=True, help="Include numbers or not.")
